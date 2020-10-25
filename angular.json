@@ -18,7 +18,7 @@
             "polyfills": "src/polyfills.ts",
             "stylePreprocessorOptions": {
               "includePaths": [
-                "src/app/@pages/styles",
+                "src/app/_pages/styles",
                 "src/pages_ui/scss"
               ]
             },
@@ -34,7 +34,7 @@
               "node_modules/focus-visible/dist/focus-visible.min.js",
               "node_modules/scrollreveal/dist/scrollreveal.js",
               "node_modules/echarts/dist/echarts.min.js",
-              "src/app/@pages/assets/javascript/pages.js",
+              "src/app/_pages/assets/javascript/pages.js",
               "node_modules/masonry-layout/dist/masonry.pkgd.min.js",
               "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
               "node_modules/imagesloaded/imagesloaded.pkgd.js",
@@ -91,7 +91,7 @@
             "scripts": [
               "node_modules/scrollreveal/dist/scrollreveal.js",
               "node_modules/echarts/dist/echarts.min.js",
-              "src/app/@pages/assets/javascript/pages.js",
+              "src/app/_pages/assets/javascript/pages.js",
               "node_modules/masonry-layout/dist/masonry.pkgd.min.js",
               "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
               "node_modules/imagesloaded/imagesloaded.pkgd.js",

@@ -10,18 +10,18 @@ import { RouterModule } from '@angular/router';
 import { AppRoutes } from './app.routing';
 import { AppComponent } from './app.component';
 
-import { pagesToggleService } from './@pages/services/toggler.service';
+import { pagesToggleService } from './_pages/services/toggler.service';
 
-import { SidebarComponent } from './@pages/components/sidebar/sidebar.component';
-import { QuickviewComponent } from './@pages/components/quickview/quickview.component';
-import { QuickviewService } from './@pages/components/quickview/quickview.service';
-import { SearchOverlayComponent } from './@pages/components/search-overlay/search-overlay.component';
-import { HeaderComponent } from './@pages/components/header/header.component';
-import { HorizontalMenuComponent } from './@pages/components/horizontal-menu/horizontal-menu.component';
-import { SharedModule } from './@pages/components/shared.module';
-import { pgListViewModule} from './@pages/components/list-view/list-view.module';
-import { pgCardModule} from './@pages/components/card/card.module';
-import { pgCardSocialModule} from './@pages/components/card-social/card-social.module';
+import { SidebarComponent } from './_pages/components/sidebar/sidebar.component';
+import { QuickviewComponent } from './_pages/components/quickview/quickview.component';
+import { QuickviewService } from './_pages/components/quickview/quickview.service';
+import { SearchOverlayComponent } from './_pages/components/search-overlay/search-overlay.component';
+import { HeaderComponent } from './_pages/components/header/header.component';
+import { HorizontalMenuComponent } from './_pages/components/horizontal-menu/horizontal-menu.component';
+import { SharedModule } from './_pages/components/shared.module';
+import { pgListViewModule} from './_pages/components/list-view/list-view.module';
+import { pgCardModule} from './_pages/components/card/card.module';
+import { pgCardSocialModule} from './_pages/components/card-social/card-social.module';
 
 import {BsDropdownModule,
         AccordionModule,
@@ -35,22 +35,22 @@ import {BsDropdownModule,
         TypeaheadModule,
 } from 'ngx-bootstrap';
 
-import { pgTabsModule } from './@pages/components/tabs/tabs.module';
-import { pgSwitchModule } from './@pages/components/switch/switch.module';
-import { ProgressModule } from './@pages/components/progress/progress.module';
+import { pgTabsModule } from './_pages/components/tabs/tabs.module';
+import { pgSwitchModule } from './_pages/components/switch/switch.module';
+import { ProgressModule } from './_pages/components/progress/progress.module';
 
 import { QuillModule } from 'ngx-quill';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 
-import { DashboardComponent } from './@pages/layouts/dashboard/dashboard.component';
-import {Base} from './@pages/layouts/base/base.component';
-import {BlankComponent} from './@pages/layouts/blank/blank.component';
+import { DashboardComponent } from './_pages/layouts/dashboard/dashboard.component';
+import {Base} from './_pages/layouts/base/base.component';
+import {BlankComponent} from './_pages/layouts/blank/blank.component';
 import {AuthInterceptor} from './auth/auth.interceptor';
-import {MessageModule} from './@pages/components/message/message.module';
-import {MessageService} from './@pages/components/message/message.service';
-import {RootLayout} from './@pages/layouts';
+import {MessageModule} from './_pages/components/message/message.module';
+import {MessageService} from './_pages/components/message/message.service';
+import {RootLayout} from './_pages/layouts';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true

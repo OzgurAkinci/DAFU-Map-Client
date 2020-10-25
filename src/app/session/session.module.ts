@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SessionRoute } from './session.routing';
 
-import { SharedModule } from '../@pages/components/shared.module';
+import { SharedModule } from '../_pages/components/shared.module';
 import { ErrorComponent } from './error/error.component';
 import { LoginComponent } from './login/login.component';
 import { LockscreenComponent } from './lockscreen/lockscreen.component';

@@ -2,8 +2,8 @@ import { Routes } from '@angular/router';
 import {
   Base,
   DashboardComponent
-} from './@pages/layouts';
-import {BlankComponent} from './@pages/layouts/blank/blank.component';
+} from './_pages/layouts';
+import {BlankComponent} from './_pages/layouts/blank/blank.component';
 import {AuthGuard} from './auth/auth.guard';
 
 export const AppRoutes: Routes = [
